@@ -8,8 +8,22 @@ class IndexPage extends GetView<IndexController> {
 
   // 主视图
   Widget _buildView() {
-    return const Center(
-      child: Text("IndexPage"),
+    return Center(
+      child: Center(
+        child: Column(
+          children: [
+            Obx(() {
+              return Text(controller.num.value.toString());
+            }),
+            BackButton(
+              onPressed: () {
+                controller.inc();
+                // Get.snackbar("title", "登陆过期");
+              },
+            ),
+          ],
+        ),
+      ),
     );
   }
 
@@ -21,9 +35,7 @@ class IndexPage extends GetView<IndexController> {
       builder: (_) {
         return Scaffold(
           appBar: AppBar(title: const Text("index")),
-          body: SafeArea(
-            child: _buildView(),
-          ),
+          body: SafeArea(child: _buildView()),
         );
       },
     );

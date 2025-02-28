@@ -1,5 +1,0 @@
-
-      GetPage(
-        name: RouteNames.index,
-        page: () => const IndexPage(),
-      ),

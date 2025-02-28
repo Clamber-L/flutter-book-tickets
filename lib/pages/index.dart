@@ -1,3 +1,3 @@
 library pages;
 
-// export './xxxx.dart';
+export 'index/index.dart';
