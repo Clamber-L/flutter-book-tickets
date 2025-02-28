@@ -12,7 +12,7 @@ class IndexController extends GetxController {
   void onTap() {}
 
   void inc() {
-    num.value++;
+    num++;
   }
 
   // @override

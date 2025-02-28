@@ -13,7 +13,7 @@ class IndexPage extends GetView<IndexController> {
         child: Column(
           children: [
             Obx(() {
-              return Text(controller.num.value.toString());
+              return Text(controller.num.toString());
             }),
             BackButton(
               onPressed: () {

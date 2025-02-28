@@ -1,5 +1,6 @@
 import 'package:book_tickets/pages/index/view.dart';
 import 'package:get/get.dart';
+import 'package:kplayer/kplayer.dart';
 
 import 'names.dart';
 

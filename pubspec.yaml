@@ -10,6 +10,10 @@ dependencies:
   cupertino_icons: ^1.0.8
   fluentui_icons: ^1.0.0
   get: ^4.7.2
+  file_picker: ^9.0.2
+  kplayer: ^0.4.2
+  shared_preferences: ^2.5.2
+  permission_handler: ^11.4.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
